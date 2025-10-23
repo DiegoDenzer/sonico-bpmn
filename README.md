@@ -37,9 +37,9 @@ A engine será composta pelos seguintes módulos principais:
 O desenvolvimento será iterativo, começando pelo subconjunto mais simples do BPMN.
 
 ### Versão 0.1 (O "Hello World" do BPMN)
-* [ ] Implementar o Parser de XML para um modelo em memória.
-* [ ] Motor de Execução **apenas em memória** (sem persistência).
-* [ ] Suporte aos elementos:
+* [x] Implementar o Parser de XML para um modelo em memória.
+* [x] Motor de Execução **apenas em memória** (sem persistência).
+* [x] Suporte aos elementos:
     * `startEvent` (None)
     * `sequenceFlow`
     * `serviceTask` (com execução síncrona, ex: logar no console)
